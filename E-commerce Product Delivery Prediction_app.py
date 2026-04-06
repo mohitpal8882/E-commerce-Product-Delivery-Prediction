@@ -25,7 +25,7 @@ st.markdown("Predict whether a product will be delivered **On Time** or **Late**
 # --------------------------------------------------
 @st.cache_data
 def load_data():
-    df = pd.read_csv("Train 2.csv")
+    df = pd.read_csv("E_Commerce(in).csv")
     return df
 
 df = load_data()
